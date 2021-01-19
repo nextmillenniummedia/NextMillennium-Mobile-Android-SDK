@@ -143,7 +143,7 @@ RecyclerView example:
 
 TextView example: 
 
-```inContentView.setContent(“text”)``// after this call ```inAppSdk.inject(this)```
+```inContentView.setContent(“text”)``` // after this call ```inAppSdk.inject(this)```
 
 
 
