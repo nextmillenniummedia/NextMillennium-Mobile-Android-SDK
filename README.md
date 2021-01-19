@@ -20,12 +20,13 @@ We are happy to announce the release of NextMillennium Android SDK for Mobile Ad
 ###  Key features
 
 ####  Modes of ad display
- You can choose which ad display mode is preferrable to you: Classic or Injection one.
+
+You can choose which ad display mode is preferrable to you: Classic or Injection one.
  
-|          Type     |      Description                  |                      
-|----------------|-------------------------------|-----------------------------|
-|**Classic**|choose exact place where you want to display NextMillennium mobile ads in your app       
-|**Injection**       |manage your ads dynamically: turn them on/off, choose at which activities you want to display ads and see result in a few seconds, you don t need to reinstall the SDK to change the position of an ad.   
+| Type  | Description                         |                   
+|----------------|-------------------------------|
+|**Classic** |choose exact place where you want to display NextMillennium mobile ads in your app |   
+|**Injection** |manage your ads dynamically: turn them on/off, choose at which activities you want to display ads and see result in a few seconds, you don t need to reinstall the SDK to change the position of an ad.   |
 
 # Installation
 
