@@ -21,7 +21,7 @@ We are happy to announce the release of NextMillennium Android SDK for Mobile Ad
 
 ####  Modes of ad display
 
-You can choose which ad display mode is preferrable to you: Classic or Injection one.
+You can choose which ad display mode is preferrable to you: Classic or Injection.
  
 | Type  | Description                         |                   
 |----------------|-------------------------------|
@@ -79,10 +79,8 @@ Get API keys and add them to application manifest file.
 Call ```InAppSdk.initialize(this)``` method in application class in onCreate method.
 
 
-## Initialize SDK and send Activities
-
-
-In Application class in onCreate() method, add the following code to send the list of activities. This method should be called only once when you install the SDK into an app. It should be also called when the list of activities has been changed. 
+## Send Activities
+In Application class in onCreate() method, add the following code to send the list of activities. Call this method only once when you install the SDK into your app. It should be also called when the list of activities has been changed. 
 
 ```
 override fun onCreate() {
@@ -99,6 +97,7 @@ override fun onCreate(savedinstancestate: Bundle?) {
 }
 ```
 
+## Initialize Ad display
 
 To initialize the load of banners into recyclerView list or into TextView list you need to wrap recyclerView or TextView into ```InContentView```.
 
@@ -134,22 +133,17 @@ Find views:
 
 ```InContentView inContentView = findViewById(R.id.inContentView);```
 
-Call the following methods in Activity class:
+The last step is to call the following methods in Activity class.
 
 RecyclerView example:
 
-```incontentView.setContent()``` 
-// As a parameter for this method use 
-recyclerView.adapter 
-
+```incontentView.setContent()``` // As a parameter for this method use  recyclerView.adapter 
 // after this call
 ```inAppSdk.inject(this)```
 
 TextView example: 
 
-``inContentView.setContent(“text”)``
-// after this call
-inAppSdk.inject(this)
+```inContentView.setContent(“text”)``// after this call ```inAppSdk.inject(this)```
 
 
 
