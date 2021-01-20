@@ -7,15 +7,20 @@ We are happy to announce the release of NextMillennium Android SDK for Mobile Ad
 
 |        Version        |Release date                          |Description                         |
 |----------------|-------------------------------|-----------------------------|
-|1.0.0|november 2020          |• initial release.           |
-|1.0.1          |january 2021            |??????           |
+|1.0.0-beta01|15 november 2020          |• initial release           |
+|1.0.1-beta01          |20 january 2021            |• java support                     |
 
 ### GMA SDK Compatibility Matrix
 
-|NM SDK Version |GMS play-services-ads Version                         |Repository                         |
+|NM SDK Version |GMS play-services-ads Version                         |                        |
 |----------------|-------------------------------|-----------------------------|
-|1.0.1 |18.2.0         |jcenter() ?????          |
+|1.0.0-beta01 |19.5.0        |        |
+|1.0.1-beta01 |19.5.0        |        |
 
+
+### Minimum Requirements
+
+minSDKVersion 16 targetSDKVersion 29 com.android.tools.build:gradle 3.5.1
 
 ###  Key features
 
