@@ -12,10 +12,10 @@ We are happy to announce the release of NextMillennium Android SDK for Mobile Ad
 
 ### GMA SDK Compatibility Matrix
 
-|NM SDK Version |GMS play-services-ads Version                         |                        |
-|----------------|-------------------------------|-----------------------------|
-|1.0.0-beta01 |19.5.0        |        |
-|1.0.1-beta01 |19.5.0        |        |
+|NM SDK Version |GMS play-services-ads Version                         |
+|----------------|-------------------------------|
+|1.0.0-beta01 |19.5.0        |
+|1.0.1-beta01 |19.5.0        |
 
 
 ### Minimum Requirements
