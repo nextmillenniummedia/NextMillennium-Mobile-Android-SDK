@@ -123,8 +123,4 @@ For example:
 ```
 InContentView inContentView = findViewById(R.id.inContentView)
 inContentView.setContent(recyclerAdapter)
-InAppSdk.injectTo(activity)```
-
-
-
-
+InAppSdk.injectTo(activity)
