@@ -44,7 +44,7 @@ repositories {
 ```
 ```gradle
 dependencies {
-  implementation 'com.nextmillenium:inappsdk:1.0.0-beta01'
+  implementation 'com.nextmillenium:inappsdk:1.0.1-beta01'
 }
 ```
 ### Through aar file
