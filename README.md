@@ -93,29 +93,29 @@ To initialize the load of banners into recyclerView or into TextView you need to
 
 RecyclerView example:
 
-    ```<com.nextmillenium.inappsdk.core.ui.InContentView
-    android:id="@+id/inContentView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">```
+    <com.nextmillenium.inappsdk.core.ui.InContentView
+      android:id="@+id/inContentView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
     
-    ```<androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/recyclerView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
-    </com.nextmillenium.inappsdk.core.ui.InContentView>```
+      <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </com.nextmillenium.inappsdk.core.ui.InContentView>
 
 TextView example:
 
-   ``` <com.nextmillenium.inappsdk.core.ui.InContentView
-    android:id="@+id/inContentView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">```
+    <com.nextmillenium.inappsdk.core.ui.InContentView
+      android:id="@+id/inContentView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
 
-    ```<TextView
-    android:id="@+id/textView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
-    </com.nextmillenium.inappsdk.core.ui.InContentView>```
+      <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </com.nextmillenium.inappsdk.core.ui.InContentView>
 
 Find InContentView and set content to it. 
 
