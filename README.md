@@ -8,7 +8,7 @@ We are happy to announce the release of NextMillennium Android SDK for Mobile Ad
 |        Version        |Release date                          |Description                         |
 |----------------|-------------------------------|-----------------------------|
 |1.0.0-beta01|15 november 2020          |• initial release           |
-|1.0.1-beta01          |20 january 2021            |• java support                     |
+|1.0.1-beta01          |20 january 2021            |• fixes                    |
 
 ### GMA SDK Compatibility Matrix
 
